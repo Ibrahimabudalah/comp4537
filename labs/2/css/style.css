@@ -1,0 +1,77 @@
+body {
+  margin: 20px;
+  padding: 0;
+  background-color: #333;
+  color: white;
+}
+
+.timestamp {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  min-height: 1.2em;
+}
+
+#notes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.note-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.note-box {
+  width: 250px;
+  height: 90px;
+  padding: 10px;
+  background-color: turquoise;
+  color: #ffffff;
+  border: 1px solid turquoise;
+  border-radius: 2px;
+  font-size: 0.95rem;
+  resize: none;
+}
+
+.btn-remove {
+  background-color: orange;
+  color: white;
+  border: 1px solid orange;
+  padding: 6px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-add {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  padding: 6px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.btn-nav,
+.btn-back {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  color: black;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.btn-nav:hover,
+.btn-back:hover {
+  background-color: #a29f9f;
+}
